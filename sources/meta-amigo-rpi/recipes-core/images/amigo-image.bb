@@ -36,10 +36,10 @@ IMAGE_INSTALL += "cinematicexperience"
 EXTRA_IMAGE_FEATURES ?= "debug-tweaks tools-debug"
 IMAGE_INSTALL += " qtbase-dev qtbase-mkspecs qtbase-tools"
 
-#IMAGE_INSTALL += "qtexample"
-#IMAGE_INSTALL += "myechoserver"
+IMAGE_INSTALL += "qtexample"
+IMAGE_INSTALL += "myechoserver"
 
-#IMAGE_INSTALL += "wiringpi-dev"
-#IMAGE_INSTALL += "sunfounders"
+IMAGE_INSTALL += "wiringpi-dev"
+IMAGE_INSTALL += "sunfounders"
 
 #IMAGE_INSTALL += "sudo"
