@@ -14,7 +14,7 @@ DEPENDS += "qtbase"
 RDEPENDS:${PN} = "libgcrypt"
 
 S = "${WORKDIR}/git"
-COMPATIBLE_MACHINE = "raspberrypi"
+#COMPATIBLE_MACHINE = "raspberrypi"
 
 CFLAGS:prepend = "-I${S}/wiringPi -I${S}/devLib"
 
